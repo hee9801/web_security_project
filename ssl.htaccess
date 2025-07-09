@@ -1,0 +1,5 @@
+RewriteEngine On
+
+# Force HTTPS on port 4343
+RewriteCond %{HTTPS} !=on
+RewriteRule ^ https://localhost:4343%{REQUEST_URI} [L,R=301]

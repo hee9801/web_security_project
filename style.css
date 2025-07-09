@@ -1,0 +1,147 @@
+/* Body Background */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #dbeafe, #bfdbfe);
+    margin: 0;
+    padding: 50px 20px;
+}
+
+/* Container Layout */
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+/* Headings */
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #1d4ed8;
+}
+
+/* Labels and Inputs */
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    transition: border-color 0.3s;
+}
+
+input:focus {
+    border-color: #2563eb;
+    outline: none;
+}
+
+/* Input Validation */
+input.valid {
+    border-color: #16a34a;
+}
+
+input.invalid {
+    border-color: #dc2626;
+}
+
+/* Error Messages */
+.error-message {
+    color: #dc2626;
+    font-size: 0.75em;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    display: none;
+}
+
+.error-message.show {
+    display: block;
+}
+
+/* Alert Error Box */
+.alert-error,
+.error-box {
+    background-color: #f87171;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    font-size: 0.95em;
+}
+
+.alert-error i {
+    margin-right: 8px;
+    font-size: 1.1em;
+    vertical-align: middle;
+}
+
+.alert-error ul {
+    margin: 10px 0 0 25px;
+    padding-left: 0;
+}
+
+.alert-error li {
+    list-style: disc;
+}
+
+/* Success Message */
+.alert-success {
+    background-color: #4ade80;
+    color: #065f46;
+    padding: 15px 20px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    font-size: 0.95em;
+    border: 1px solid #065f46;
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #2563eb;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #1d4ed8;
+}
+
+/* Show/Hide Password Icon */
+.password-wrapper {
+    position: relative;
+}
+
+.toggle-icon {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #999;
+}
+
+/* Bottom Links */
+.links {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 0.9em;
+}
+
+.links a {
+    color: #2563eb;
+    text-decoration: none;
+}
